@@ -2,7 +2,7 @@ import streamlit as st
 from utilities import load_css
 from PIL import Image
 
-st.set_page_config(page_title="Educator Ambassador", page_icon="🍎")
+st.set_page_config(page_title="Streamlit Resources Library", page_icon="🍎")
 
 def st_image(link_input, image_input):
   return st.markdown(f'''
@@ -12,7 +12,7 @@ def st_image(link_input, image_input):
     </a>
     </center>''', unsafe_allow_html=True)
 
-st.title("🍎 Streamlit Educator Ambassador")
+st.title("📚 Streamlit Resources Library")
 
 st.header('Educational materials')
 a1, a2, a3 = st.columns(3)
