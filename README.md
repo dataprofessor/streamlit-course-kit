@@ -1,6 +1,6 @@
 # 📚 Streamlit Resources Library
 
-> This Streamlit Resource Library is a collection of educational assets that you can use as the basis for preparing your own Streamlit training, workshop or lecture.
+> This Streamlit Resource Library is a collection of educational resources that you can use for learning and teaching Streamlit.
 
 ## Demo App
 
