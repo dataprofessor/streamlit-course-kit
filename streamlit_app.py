@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.app_logo import add_logo
-from utilities import load_css
+from utilities import load_css, st_image
 from PIL import Image
 
 ###### Page configuration
