@@ -5,7 +5,7 @@ from utilities import load_css, st_image
 from PIL import Image
 
 ###### Page configuration
-st.set_page_config(page_title='Streamlit Resources Library', page_icon='🍎')
+st.set_page_config(page_title='Streamlit Resources Library', layout='wide', page_icon='📚')
 
 ###### Page logo and title
 st.title("📚 Streamlit Resources Library")
