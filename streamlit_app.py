@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_extras.colored_header import colored_header
-
 from utilities import load_css, st_image
 from PIL import Image
 
@@ -9,7 +8,8 @@ st.set_page_config(page_title='Streamlit Resources Library', page_icon='🍎')
 
 ###### Page logo and title
 st.title("📚 Streamlit Resources Library")
-st.sidebar.image('app/static/logo.png', height=100)
+logo_img = Image('app/static/logo.png')
+st.sidebar.image(logo_img, height=100)
 st.sidebar.markdown('''### About
 ''')
 
