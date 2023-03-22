@@ -9,6 +9,8 @@ st.set_page_config(page_title='Streamlit Resources Library', page_icon='🍎')
 
 ###### Page logo and title
 st.title("📚 Streamlit Resources Library")
+st.sidebar.markdown('''### About
+''')
 
 ##### Teaching materials
 colored_header(
