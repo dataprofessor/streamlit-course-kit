@@ -4,20 +4,12 @@ from streamlit_extras.app_logo import add_logo
 from utilities import load_css
 from PIL import Image
 
-st.set_page_config(page_title="Streamlit Resources Library", page_icon="🍎")
+###### Page configuration
+st.set_page_config(page_title='Streamlit Resources Library', page_icon='🍎')
 
-def st_image(link_input, image_input):
-  return st.markdown(f'''
-    <center>
-    <a href="{link_input}">
-      <img src="{image_input}" width="80%">
-    </a>
-    </center>''', unsafe_allow_html=True)
-
+###### Page logo and title
 add_logo('streamlit-logo-secondary-colormark-darktext.png', height = 200)
-
 st.title("📚 Streamlit Resources Library")
-
 
 ##### Teaching materials
 colored_header(
