@@ -12,6 +12,7 @@ st.title("📚 Streamlit Resources Library")
 st.sidebar.image('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png', use_column_width='always')
 st.sidebar.markdown('''
 ### About
+A collection of educational resources that you can use for learning and teaching Streamlit.
 ''')
 
 ##### Teaching materials
