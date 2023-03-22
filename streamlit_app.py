@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_extras.colored_header import colored_header
+from streamlit_extras.app_logo import add_logo
 from utilities import load_css
 from PIL import Image
 
@@ -12,6 +13,8 @@ def st_image(link_input, image_input):
       <img src="{image_input}" width="80%">
     </a>
     </center>''', unsafe_allow_html=True)
+
+add_logo('streamlit-logo-secondary-colormark-darktext.png', height = 200)
 
 st.title("📚 Streamlit Resources Library")
 
