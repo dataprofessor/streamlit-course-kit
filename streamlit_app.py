@@ -8,8 +8,8 @@ from PIL import Image
 st.set_page_config(page_title='Streamlit Resources Library', page_icon='🍎')
 
 ###### Page logo and title
-add_logo('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png', height=100)
 st.title("📚 Streamlit Resources Library")
+add_logo('app/static/streamlit-logo-secondary-colormark-darktext.png', height=100)
 
 ##### Teaching materials
 colored_header(
