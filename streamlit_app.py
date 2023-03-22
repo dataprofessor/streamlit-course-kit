@@ -10,7 +10,7 @@ st.set_page_config(page_title='Streamlit Resources Library', page_icon='🍎')
 ###### Page logo and title
 st.title("📚 Streamlit Resources Library")
 st.sidebar.image('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png', use_column_width='always')
-st.markdown('''
+st.sidebar.markdown('''
 ### About
 ''')
 
