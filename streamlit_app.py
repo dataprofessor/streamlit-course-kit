@@ -22,9 +22,9 @@ colored_header(
   color_name='light-blue-70',
 )
 
-a1, a2, a3 = st.columns(3)
+app_1, app_2, app_3 = st.columns(3)
 
-with a1:
+with app_1:
   st.markdown('#### (Single-page) App starter kit')
   st_image('', 'app/static/Streamlit-app-starter-kit.png')
   st.info('Template for building a single page Streamlit app.')
@@ -34,7 +34,7 @@ with a1:
     [GitHub](https://github.com/streamlit/app-starter-kit)
   ''')
 
-with a2:
+with app_2:
   st.markdown('#### Multi-page App starter kit')
   st_image('', 'app/static/Streamlit-multi-page-app-starter-kit.png')
   st.info('Template for building a multi-page Streamlit app.')
@@ -49,9 +49,9 @@ colored_header(
   color_name='light-blue-70',
 )
 
-b1, b2, b3 = st.columns(3)
+teaching_1, teaching_2, teaching_3 = st.columns(3)
 
-with b1:
+with teaching_1:
   st.markdown('#### Streamlit 101 deck')
   st_image('https://101-deck.streamlit.app', 'app/static/streamlit-101-deck.png')
   st.info('An introductory deck on Streamlit that you can use to jump start your own lesson.')
@@ -69,10 +69,10 @@ colored_header(
   color_name='light-blue-70',
 )
 
-c1, c2, c3 = st.columns(3)
-c4, c5, c6 = st.columns(3)
+learning_1, learning_2, learning_3 = st.columns(3)
+learning_4, learning_5, learning_6 = st.columns(3)
 
-with c1:
+with learning_1:
   st.markdown('#### 30 Days of Streamlit')
   st_image('', 'app/static/30DaysOfStreamlit.png')
   st.info('A 30-day social challenge for you to learn, build and deploy Streamlit apps.')
@@ -80,20 +80,20 @@ with c1:
     [Blog](https://blog.streamlit.io/30-days-of-streamlit/)
     |
     [Streamlit App](https://30days.streamlit.app/)''')
-with c2:
+with learning_2:
   st.markdown('#### Streamlit Quests')
   st_image('', 'app/static/Streamlit-Quests.png')
   st.info("Here's a guided path for getting started with Streamlit.")
   st.markdown('[Blog](https://blog.streamlit.io/streamlit-quests-getting-started-with-streamlit/)')
 
-with c3:
+with learning_3:
   st.markdown('#### Streamlit Documentation')
   st_image('', 'app/static/Streamlit-Documentation.png')
   st.info('A comprehensive documentation of the Streamlit library.')
   st.markdown('''
   [Documentation](https://docs.streamlit.io/)
   ''')
-with c4:
+with learning_4:
   st.markdown('#### Streamlit Cheat Sheet')
   st_image('', 'app/static/Streamlit-Cheat-Sheet.png')
   st.info('A comprehensive summary of all Streamlit methods in this 1 page app.')
@@ -109,17 +109,17 @@ colored_header(
   color_name='light-blue-70',
 )
 
-d1, d2, d3 = st.columns(3)
+tutorials_1, tutorials_2, tutorials_3 = st.columns(3)
   
-with d1:
+with tutorials_1:
   st.markdown('#### How to master Streamlit for data science')
   st_image('', 'app/static/Master-Streamlit-for-Data-Science.png')
   st.warning('This article shows you how to master Streamlit when getting started with data science.')
-with d2:
+with tutorials_2:
   st.markdown('#### How to host app for free on Streamlit Community Cloud')
   st_image('', 'app/static/Host-Streamlit-App.png')
   st.warning('Learn how to transfer your apps from paid platforms to Streamlit Community Cloud.')
-with d3:
+with tutorials_3:
   st.markdown('#### How to create interactive books with Streamlit')
   st_image('', 'app/static/Streamlit-Book.png')
   st.warning('Use streamlit_book library to create interactive books and presentations')
@@ -132,7 +132,7 @@ colored_header(
   color_name='light-blue-70',
 )
 
-e1, e2, e3 = st.columns(3)
+images_1, images_2, images_3 = st.columns(3)
 
 with e1:
   st.markdown('#### Streamlit Brand')
@@ -156,14 +156,14 @@ colored_header(
   color_name='light-blue-70',
 )
 
-f1, f2, f3 = st.columns(3)
+tools_1, tools_2, tools_3 = st.columns(3)
 
-with f1:
+with tools_1:
   st.markdown('#### Streamlit Components Hub')
   st_image('', 'app/static/Streamlit-Components-Hub.png')
   st.warning('A collection of all Streamlit components aggregated from Github, PyPI, and the Streamlit forum.')
   st.markdown('[Streamlit App](https://components.streamlit.app/)')
-with f2:
+with tools_2:
   st.markdown('#### Streamlit-Extras component')
   st_image('', 'app/static/Streamlit-Extras.png')
   st.warning('A Streamlit component that extend the native capabilities of Streamlit apps.')
@@ -172,7 +172,7 @@ with f2:
   |
   [Streamlit App](https://extras.streamlit.app/)
   ''')
-with f3:
+with tools_3:
   st.markdown('#### Streamlit-Faker component')
   st_image('', 'app/static/Streamlit-Faker.png')
   st.warning('A Streamlit component that allows you to quickly prototype a Streamlit app (think *Lorem ipsum* for Streamlit).')
