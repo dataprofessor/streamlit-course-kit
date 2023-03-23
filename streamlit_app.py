@@ -134,16 +134,16 @@ colored_header(
 
 images_1, images_2, images_3 = st.columns(3)
 
-with e1:
+with images_1:
   st.markdown('#### Streamlit Brand')
   st_image('https://streamlit.io/brand', 'app/static/streamlit-brand.png')
   st.warning('A collection of Streamlit logo.')
   st.markdown('[Website](https://streamlit.io/brand)')
-#with e2:
+#with images_2:
 #  st.markdown('#### Placeholder')
 #  st_image('', 'app/static/streamlit-placeholder.png')
 #  st.warning('A description of the resource.')
-#with e3:
+#with images_3:
 #  st.markdown('#### Placeholder')
 #  st_image('', 'app/static/streamlit-placeholder.png')
 #  st.warning('A description of the resource.')
