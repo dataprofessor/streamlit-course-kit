@@ -25,8 +25,8 @@ colored_header(
 a1, a2, a3 = st.columns(3)
 
 with a1:
-  st.markdown('#### App starter kit')
-  st_image('', 'app/static/streamlit-101-deck.png')
+  st.markdown('#### (Single-page) App starter kit')
+  st_image('', 'app/static/Streamlit-app-starter-kit.png')
   st.info('Template for building a single page Streamlit app.')
   st.markdown('''
     [Blog](https://blog.streamlit.io/streamlit-app-starter-kit-how-to-build-apps-faster/)
@@ -35,8 +35,8 @@ with a1:
   ''')
 
 with a2:
-  st.markdown('#### Multi-page app starter kit')
-  st_image('', 'app/static/streamlit-101-deck.png')
+  st.markdown('#### Multi-page App starter kit')
+  st_image('', 'app/static/Streamlit-multi-page-app-starter-kit.png')
   st.info('Template for building a multi-page Streamlit app.')
   st.markdown('''
     [GitHub](https://github.com/dataprofessor/st-multipage)
