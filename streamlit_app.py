@@ -53,7 +53,7 @@ teaching_1, teaching_2, teaching_3 = st.columns(3)
 
 with teaching_1:
   st.markdown('#### Streamlit 101 deck')
-  st_image('https://101-deck.streamlit.app', 'app/static/streamlit-101-deck.png')
+  st_image('https://101-deck.streamlit.app', 'app/static/Streamlit-101-deck.png')
   st.info('An introductory deck on Streamlit that you can use to jump start your own lesson.')
   st.markdown('''
     [Google Slides](https://docs.google.com/presentation/d/1mL1HPJGBNg46pITigWyCXQbaG7AyAhKe8pNrwdy3u5M/edit?usp=sharing)
@@ -136,16 +136,16 @@ images_1, images_2, images_3 = st.columns(3)
 
 with images_1:
   st.markdown('#### Streamlit Brand')
-  st_image('https://streamlit.io/brand', 'app/static/streamlit-brand.png')
+  st_image('https://streamlit.io/brand', 'app/static/Streamlit-brand.png')
   st.warning('A collection of Streamlit logo.')
   st.markdown('[Website](https://streamlit.io/brand)')
 #with images_2:
 #  st.markdown('#### Placeholder')
-#  st_image('', 'app/static/streamlit-placeholder.png')
+#  st_image('', 'app/static/Streamlit-placeholder.png')
 #  st.warning('A description of the resource.')
 #with images_3:
 #  st.markdown('#### Placeholder')
-#  st_image('', 'app/static/streamlit-placeholder.png')
+#  st_image('', 'app/static/Streamlit-placeholder.png')
 #  st.warning('A description of the resource.')
 
   
