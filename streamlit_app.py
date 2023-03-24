@@ -53,12 +53,12 @@ teaching_1, teaching_2, teaching_3 = st.columns(3)
 
 with teaching_1:
   st.markdown('#### Streamlit introductory slide deck')
-  st_image('https://101-deck.streamlit.app', 'app/static/Streamlit-101-deck.png')
+  st_image('https://intro-deck.streamlit.app', 'app/static/Streamlit-intro-deck.png')
   st.info('An introductory deck on Streamlit that you can use to jump start your own lesson.')
   st.markdown('''
     [Google Slides](https://docs.google.com/presentation/d/1mL1HPJGBNg46pITigWyCXQbaG7AyAhKe8pNrwdy3u5M/edit?usp=sharing)
     |
-    [Streamlit App](https://101-deck.streamlit.app)
+    [Streamlit App](https://intro-deck.streamlit.app)
   ''')
   
   
