@@ -52,7 +52,7 @@ colored_header(
 teaching_1, teaching_2, teaching_3 = st.columns(3)
 
 with teaching_1:
-  st.markdown('#### Streamlit 101 deck')
+  st.markdown('#### Streamlit introductory slide deck')
   st_image('https://101-deck.streamlit.app', 'app/static/Streamlit-101-deck.png')
   st.info('An introductory deck on Streamlit that you can use to jump start your own lesson.')
   st.markdown('''
