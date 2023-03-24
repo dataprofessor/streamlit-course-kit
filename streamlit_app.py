@@ -115,14 +115,17 @@ with tutorials_1:
   st.markdown('#### How to master Streamlit for data science')
   st_image('', 'app/static/Master-Streamlit-for-Data-Science.png')
   st.warning('This article shows you how to master Streamlit when getting started with data science.')
+  st.markdown('[Blog](https://blog.streamlit.io/how-to-master-streamlit-for-data-science/)')
 with tutorials_2:
   st.markdown('#### How to host app for free on Streamlit Community Cloud')
   st_image('', 'app/static/Host-Streamlit-App.png')
   st.warning('Learn how to transfer your apps from paid platforms to Streamlit Community Cloud.')
+  st.markdown('[Blog](https://blog.streamlit.io/host-your-streamlit-app-for-free/)')
 with tutorials_3:
   st.markdown('#### How to create interactive books with Streamlit')
   st_image('', 'app/static/Streamlit-Book.png')
   st.warning('Use streamlit_book library to create interactive books and presentations')
+  st.markdown('[Blog](https://blog.streamlit.io/how-to-create-interactive-books-with-streamlit-and-streamlit-book-in-5-steps/)')
   
   
 ##### Images
