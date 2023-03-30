@@ -142,10 +142,11 @@ with images_1:
   st_image('https://streamlit.io/brand', 'app/static/Streamlit-brand.png')
   st.warning('A collection of Streamlit logo.')
   st.markdown('[Website](https://streamlit.io/brand)')
-#with images_2:
-#  st.markdown('#### Placeholder')
-#  st_image('', 'app/static/Streamlit-placeholder.png')
-#  st.warning('A description of the resource.')
+with images_2:
+  st.markdown('#### Streamlit Cartoon')
+  st_image('', 'app/static/Streamlit-placeholder.png')
+  st.warning('A collection of cartoon about Streamlit.')
+  st.markdown('[GitHub repo](https://github.com/dataprofessor/streamlit-cartoon)')
 #with images_3:
 #  st.markdown('#### Placeholder')
 #  st_image('', 'app/static/Streamlit-placeholder.png')
