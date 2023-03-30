@@ -144,7 +144,7 @@ with images_1:
   st.markdown('[Website](https://streamlit.io/brand)')
 with images_2:
   st.markdown('#### Streamlit Cartoon')
-  st_image('', 'app/static/Streamlit-placeholder.png')
+  st_image('', 'app/static/Streamlit-Cartoon.png')
   st.warning('A collection of cartoon about Streamlit.')
   st.markdown('[GitHub repo](https://github.com/dataprofessor/streamlit-cartoon)')
 #with images_3:
