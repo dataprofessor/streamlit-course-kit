@@ -5,3 +5,9 @@
 ## Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://starter-kit.streamlit.app/)
+
+## App Screenshot
+
+<p align="center">
+  <img src="./static/streamlit-starter-kit-screenshot.png" width="60%">
+</p>
