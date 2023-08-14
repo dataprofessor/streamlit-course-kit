@@ -5,10 +5,10 @@ from utilities import load_css, st_image
 from PIL import Image
 
 ###### Page configuration
-st.set_page_config(page_title='Streamlit Resources Library', layout='wide', page_icon='📚')
+st.set_page_config(page_title='Streamlit Starter Kit', layout='wide', page_icon='📦')
 
 ###### Page logo and title
-st.title("📚 Streamlit Resources Library")
+st.title("📦 Streamlit Starter Kit")
 st.sidebar.image('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png', use_column_width='always')
 st.sidebar.markdown('''
 ### About
