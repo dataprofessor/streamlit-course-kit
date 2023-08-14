@@ -9,5 +9,5 @@
 ## App Screenshot
 
 <p align="center">
-  <img src="./static/streamlit-starter-kit-screenshot.png" width="60%">
+  <img src="./static/streamlit-starter-kit-screenshot.png" width="35%">
 </p>
