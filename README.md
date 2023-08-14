@@ -1,6 +1,6 @@
-# 📚 Streamlit Resources Library
+# 📦 Streamlit Starter Kit
 
-> This Streamlit Resource Library is a collection of educational resources that you can use for learning and teaching Streamlit.
+> This Streamlit Starter Kit is a collection of educational resources for helping you get started in using Streamlit.
 
 ## Demo App
 
