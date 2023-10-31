@@ -12,7 +12,7 @@ st.title("📦 Streamlit Starter Kit")
 st.sidebar.image('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png', use_column_width='always')
 st.sidebar.markdown('''
 ### About
-This Streamlit Starter Kit is a collection of educational resources for helping you get started in using, teaching and content creation on [Streamlit](https://streamlit.io/).
+This Streamlit Starter Kit is a collection of educational resources for helping you get started in using, teaching and creating content about [Streamlit](https://streamlit.io/).
 ''')
 
 ##### App templates
