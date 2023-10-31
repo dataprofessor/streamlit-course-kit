@@ -160,16 +160,42 @@ colored_header(
   color_name='light-blue-70',
 )
 
+st.markdown('#### :gray[Tools for content creation]')
+
+tool_col = st.columns(3)
+
+
+with tool_col[0]:
+  st.markdown('##### Screenshot App')
+  st_image('', 'app/static/Streamlit-Components-Hub.png')
+  st.warning('Captures the screenshot of a Streamlit app that can be used for multiple purposes especially as a Blog cover image.')
+  st.markdown('[Streamlit App](https://screenshot.streamlit.app/)')
+with tool_col[1]:
+  st.markdown('##### Animated GIF Maker App')
+  st_image('', 'app/static/Streamlit-Extras.png')
+  st.warning('Converts a video file into an animated GIF file')
+  st.markdown('''
+  [Streamlit App](https://screenshot.streamlit.app/)
+  ''')
+with tool_col[2]:
+  st.markdown('##### Thumbnail Image Generator app')
+  st_image('', 'app/static/Streamlit-Faker.png')
+  st.warning('Automatically generates a thumbnail image that can be used for YouTube videos')
+  st.markdown('''
+  [Streamlit App](https://thumbnail-image.streamlit.app/)
+  ''')
+
+
 st.markdown('#### :gray[Tools for app building]')
 
-tools_1, tools_2, tools_3 = st.columns(3)
+tools_col = st.columns(3)
 
-with tools_1:
+with tools_col[0]:
   st.markdown('#### Streamlit Components Hub')
   st_image('', 'app/static/Streamlit-Components-Hub.png')
   st.warning('A collection of all Streamlit components aggregated from Github, PyPI, and the Streamlit forum.')
   st.markdown('[Streamlit App](https://components.streamlit.app/)')
-with tools_2:
+with tools_col[1]:
   st.markdown('#### Streamlit-Extras component')
   st_image('', 'app/static/Streamlit-Extras.png')
   st.warning('A Streamlit component that extend the native capabilities of Streamlit apps.')
@@ -178,7 +204,7 @@ with tools_2:
   |
   [Streamlit App](https://extras.streamlit.app/)
   ''')
-with tools_3:
+with tools_col[2]:
   st.markdown('#### Streamlit-Faker component')
   st_image('', 'app/static/Streamlit-Faker.png')
   st.warning('A Streamlit component that allows you to quickly prototype a Streamlit app (think *Lorem ipsum* for Streamlit).')
