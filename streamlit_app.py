@@ -167,19 +167,19 @@ tool_col = st.columns(3)
 
 with tool_col[0]:
   st.markdown('##### App Screenshot')
-  st_image('', 'app/static/Streamlit-Components-Hub.png')
+  st_image('', 'app/static/App-Screenshot.png')
   st.warning('Captures the screenshot of a Streamlit app that can be used for multiple purposes especially as a Blog cover image.')
   st.markdown('[Streamlit App](https://screenshot.streamlit.app/)')
 with tool_col[1]:
   st.markdown('##### Animated GIF Maker App')
-  st_image('', 'app/static/Streamlit-Extras.png')
+  st_image('', 'app/static/Animated-GIF-Maker.png')
   st.warning('Converts a video file into an animated GIF file')
   st.markdown('''
   [Streamlit App](https://screenshot.streamlit.app/)
   ''')
 with tool_col[2]:
   st.markdown('##### Thumbnail Image Generator app')
-  st_image('', 'app/static/Streamlit-Faker.png')
+  st_image('', 'app/static/Thumbnail-Image-Generator.png')
   st.warning('Automatically generates a thumbnail image that can be used for YouTube videos')
   st.markdown('''
   [Streamlit App](https://thumbnail-image.streamlit.app/)
