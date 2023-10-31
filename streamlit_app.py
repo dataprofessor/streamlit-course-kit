@@ -160,6 +160,8 @@ colored_header(
   color_name='light-blue-70',
 )
 
+st.header('Tools for app building')
+
 tools_1, tools_2, tools_3 = st.columns(3)
 
 with tools_1:
