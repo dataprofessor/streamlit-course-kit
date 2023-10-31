@@ -160,7 +160,7 @@ colored_header(
   color_name='light-blue-70',
 )
 
-st.markdown('#### :blue[Tools for app building]')
+st.markdown('#### :gray[Tools for app building]')
 
 tools_1, tools_2, tools_3 = st.columns(3)
 
