@@ -166,7 +166,7 @@ tool_col = st.columns(3)
 
 
 with tool_col[0]:
-  st.markdown('##### Screenshot App')
+  st.markdown('##### App Screenshot')
   st_image('', 'app/static/Streamlit-Components-Hub.png')
   st.warning('Captures the screenshot of a Streamlit app that can be used for multiple purposes especially as a Blog cover image.')
   st.markdown('[Streamlit App](https://screenshot.streamlit.app/)')
