@@ -8,7 +8,7 @@ from PIL import Image
 st.set_page_config(page_title='Streamlit Course Kit', layout='wide', page_icon='📦')
 
 ###### Page logo and title
-st.title("📦 Streamlit Starter Kit")
+st.title("📦 Streamlit Course Kit")
 st.sidebar.image('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png', use_column_width='always')
 st.sidebar.markdown('''
 ### About
