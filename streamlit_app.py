@@ -175,7 +175,7 @@ with tool_col[1]:
   st_image('', 'app/static/Animated-GIF-Maker.png')
   st.warning('Converts a video file into an animated GIF file')
   st.markdown('''
-  [Streamlit App](https://screenshot.streamlit.app/)
+  [Streamlit App](https://animated-gif.streamlit.app/)
   ''')
 with tool_col[2]:
   st.markdown('##### Thumbnail Image Generator app')
